@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Open Sans";
+      font-weight: lighter;
+}
+#logo {
+  padding-top: 160px;
+}
+header {
+      width: 100%;
+      height: 160vh;
+    /*  background: url(Eysionic-logo.png) no-repeat 50% 50%;
+      background-size: cover;*/
+
+  background-image: -moz-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%) ;
+  background-image: -webkit-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%) ;
+  background-image: -ms-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%) ;
+  background-repeat: no-repeat;
+     background-size: auto;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+/*
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+*/
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      /*transition: 1s;*/
+}
+
+nav.black ul {
+  border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
+ background: white;
+}
+
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+      color: black;
+      font-size: 14px;
+      text-transform: uppercase;
+      
+
+
+}
+nav ul li a:hover {
+    text-decoration: none;
+      color: blue;
+      font-size: 17px;
+      text-transform: uppercase;
+
+}
+.Social_media{
+
+position:absolute;
+      padding-top: 160px;
+}
+.Social_media ul{
+  list-style: none;
+}
+
+.Social_media ul li{
+padding: 25px;
+}
+.Social_media ul li  a{
+  text-decoration: none;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: white;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: black;
+      display: none;
+}
+
+.Team_located{
+padding-top: 60px;
+}
+.Team_located_text{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+.web-dev-des{
+  text-transform: uppercase;
+
+}
+#first_line{
+  padding-top: 200px;
+}
+@media(max-width: 768px) {
+/*
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }*/
+header {
+/*  width: 105vh;*/
+
+}
+      nav ul {
+            max-height: 0px;
+            background: white;
+      }
+
+      nav.black ul {
+            background: #fff;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+/*sliman's css*/
+.Get_the_best_project_quality {
+    font-size: 60px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+    text-align: center;
+    z-index : 38;
+    width: 100%
+}
+
+.Lorem_ipsum {
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: rgb(78, 78, 78);
+    line-height: 1.2;
+    text-align: center;
+    max-width: 654px;
+    z-index: 41;
+}
+
+.macbook_air {
+
+    margin-top: 10px;
+    max-width:1013px;
+}
+
+.macbook_air > img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.Part2 > * {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Line2 {
+    max-width:87px;
+}
+
+.Line2 > img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.sec2{
+  padding-top: 140px;
+}
