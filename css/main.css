@@ -56,4 +56,5 @@ body {
 
 .Section {
     height: 100vh;
+    border: solid black 2px;
 }
