@@ -17,7 +17,7 @@
         background-image: -webkit-linear-gradient( -45deg, rgb(0,191,152) 0%, rgb(0,161,186) 50%, #3272b0 100%);
         background-image: -ms-linear-gradient( -45deg, rgb(0,191,152) 0%, rgb(0,161,186) 50%, #3272b0 100%);
         width: 100%;
-        height: 1781px;
+        height: 1230px;
         position: absolute;
         /*margin-left: -10px;*/
         margin-top: -98px;
@@ -88,8 +88,24 @@
         .form_contact{
           margin: 20px 20px 20px 20px;
         }
-      }
 
+      }
+      @media screen and (max-width: 800px) 
+        {
+          .background_contact{
+            height: 1300px;
+            position: absolute;
+            /*margin-left: -10px;*/
+            margin-top: -98px;
+            padding-right: 20px;
+            z-index: -1;
+          }
+        }
+      .copyright{
+        color: white;
+        font-weight: lighter;
+        font-size: 15px;
+      }
     </style>
   </head>
   <body>
@@ -136,6 +152,10 @@
   </div>
   </form>
         </div>
+      </div>
+      <br><br><br><br><br>
+      <div class="copyright">
+      <span>ALL RIGHT RESERVED TEAM EYSIONIC - 2018</span>
       </div>
     </section>
   </body>
