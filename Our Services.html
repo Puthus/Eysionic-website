@@ -29,9 +29,13 @@
 <body>
 
 
-<div class="container" id="card">
+<div class="container-fluid #card">
+   <h1 class="Our_Services">Our Services</h1>
     <div class="row">
-	<div class="col-sm-5 Card_frame">
+    <div class="col-sm-1">
+
+</div>
+	<div class="col-sm-4 Card_frame">
 		<section>
             <div class="box"><img class="icondev_icongraphicdesign" src="Assets/dev-icon.png"/></div>
 				
@@ -44,20 +48,23 @@
 
 </div>
 
-	<div class="col-sm-5 Card_frame2">
+	<div class="col-sm-4 Card_frame2">
     <section>
     <div class="box"><img class="icondev_icongraphicdesign2" src="Assets/graphic-design-icon.png"/></div>
 	
-	<h3 class="Web_Development_title2">Graphic Design</h3>
+	<h3 class="Web_Development_title2">Graphic</h3>
 	<p class="Lorem_ipsum2">A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a README, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. It also offers other common options such as a license file.</p>
 	<button class="Button_more_2 Rounded_Rectangle_2" type="button"><h4 class="More2">MORE <img src="Assets/arrow%20for%20button.png" alt=""></h4></button>
 </section>
 </div>
+<div class="col-sm-1">
 
 </div>
 
 </div>
-<div class="line3"><a href="#card"><img src="Assets/line 3.png" alt=""> </a></div>
+
+</div>
+<div class="line3"><a href="#card" target="_top"><img src="Assets/line3.png" alt=""> </a></div>
 
 
     <!-- Bootstrap core JavaScript
@@ -66,44 +73,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-        // Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
-    </script>
 
 </body>
 </html>

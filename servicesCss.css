@@ -1,153 +1,166 @@
-body{
+body {
 
-  /*background-color: #f7f7f7;*/
-    background-color: gray;
+    background-color: #f7f7f7;
+    
 }
+
 .Our_Services {
-  font-size: 60px;
-  font-family: "Open Sans";
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.917;
-  text-align: center;
- /* position: absolute;*/
-  left: 746.516px;
-  top: 3118.99px;
-  z-index: 39;
+    font-size: 60px;
+   /* font-family: "Open Sans";*/
+    font-family: open sans;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+    text-align: center;
+    /* position: absolute;*/
+    left: 746.516px;
+    top: 3118.99px;
+    z-index: 39;
 }
+
 .Card_frame {
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
-  /*margin-right: 15%;*/
-  margin-top: 6%;
-  width: 800px;
-  height: 786px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
+    /*margin-right: 15%;*/
+     width: 582px;
+    height: 860px;
+    
 }
-div.box{
+
+div.box {
     text-align: center;
 }
+
 .icondev_icongraphicdesign {
- 
-  /*position: absolute;*/
-  padding: 5%;
-  width: 90%;
-  height: 100%;
+
+    /*position: absolute;*/
+    padding: 5%;
+    width: 90%;
+    height: 100%;
 }
+
 .Web_Development_title {
-  font-size: 25px;
-  font-family: "Open Sans";
-  color: rgb(0, 0, 0);
-  line-height: 1.2;
-  text-align: center;
- /* position: absolute;*/
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    /* position: absolute;*/
 }
 
 .Lorem_ipsum {
-  font-size: 20px;
-  font-family: "Open Sans";
-  color: rgb(87, 87, 87);
-  line-height: 1.2;
-  text-align: center;
-  /*position: absolute;
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(87, 87, 87);
+    line-height: 1.2;
+    text-align: center;
+    /*position: absolute;
   width: 463px;
   height: 140px;*/
 }
+
 .Rounded_Rectangle_1 {
-  border-radius: 10px;
-  background-image: -moz-linear-gradient( 45deg, rgb(72,93,166) 0%, rgb(0,161,186) 50%, rgb(0,191,152) 75%, rgb(54,196,134) 100%);
-  background-image: -webkit-linear-gradient( 45deg, rgb(72,93,166) 0%, rgb(0,161,186) 50%, rgb(0,191,152) 75%, rgb(54,196,134) 100%);
-  background-image: -ms-linear-gradient( 45deg, rgb(72,93,166) 0%, rgb(0,161,186) 50%, rgb(0,191,152) 75%, rgb(54,196,134) 100%);
-  position: absolute;
- /* width: 417px;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
+    background-image: -webkit-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
+    background-image: -ms-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
+    position: absolute;
+    /* width: 417px;
   height: 97px;*/
 }
+
 .Button_more_1 {
-  margin-left: 3%;
-  border-radius: 10px;
-  background-image: -moz-linear-gradient( 45deg, rgb(72,93,166) 0%, rgb(0,161,186) 50%, rgb(0,191,152) 75%, rgb(54,196,134) 100%);
-  background-image: -webkit-linear-gradient( 45deg, rgb(72,93,166) 0%, rgb(0,161,186) 50%, rgb(0,191,152) 75%, rgb(54,196,134) 100%);
-  background-image: -ms-linear-gradient( 45deg, rgb(72,93,166) 0%, rgb(0,161,186) 50%, rgb(0,191,152) 75%, rgb(54,196,134) 100%);
-  position: absolute;
-  width: 90%;
-  height: 12%;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
+    background-image: -webkit-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
+    background-image: -ms-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
+    position: absolute;
+    width: 90%;
+    height: 12%;
 }
+
 .More {
-  font-size: 30px;
-  font-family: "Open Sans";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-  /*position: absolute;*/
-  left: 363.297px;
-  top: 3022.5px;
-  z-index: 56;
+    font-size: 30px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    /*position: absolute;*/
+    left: 363.297px;
+    top: 3022.5px;
+    z-index: 56;
 }
+
 .Button_more_2 {
-  margin-left: 3%;
-  border-radius: 10px;
-  background-image: -moz-linear-gradient( 45deg, rgb(224,79,106) 0%, rgb(240,152,25) 100%);
-  background-image: -webkit-linear-gradient( 45deg, rgb(224,79,106) 0%, rgb(240,152,25) 100%);
-  background-image: -ms-linear-gradient( 45deg, rgb(224,79,106) 0%, rgb(240,152,25) 100%);
-  position: absolute;
-  width: 90%;
-  height: 12%;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
+    background-image: -webkit-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
+    background-image: -ms-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
+    position: absolute;
+    width: 90%;
+    height: 12%;
 }
+
 .Card_frame2 {
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
-  margin-top: 6%;
-  width: 682px;
-  height: 786px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
+    /*margin-top: 6%;*/
+    width: 582px;
+    height: 860px;
 }
+
 .icondev_icongraphicdesign2 {
- 
- 
-  padding: 5%;
-  
-  width: 90%;
- 
+
+
+    padding: 5%;
+
+    width: 90%;
+
 }
+
 .Web_Development_title2 {
-  font-size: 25px;
-  font-family: "Open Sans";
-  color: rgb(0, 0, 0);
-  line-height: 1.2;
-  text-align: center;
- /* position: absolute;*/
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    /* position: absolute;*/
 }
 
 
 .Lorem_ipsum2 {
-  font-size: 20px;
-  font-family: "Open Sans";
-  color: rgb(87, 87, 87);
-  line-height: 1.2;
-  text-align: center;
-  /*position: absolute;*/
- /* width: 463px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(87, 87, 87);
+    line-height: 1.2;
+    text-align: center;
+    /*position: absolute;*/
+    /* width: 463px;
   height: 140px;*/
 }
 
 .More2 {
-  font-size: 30px;
-  font-family: "Open Sans";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-  /*position: absolute;*/
-   
-  left: 363.297px;
-  top: 3022.5px;
-  z-index: 56;
+    font-size: 30px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    /*position: absolute;*/
+
+    left: 363.297px;
+    top: 3022.5px;
+    z-index: 56;
 }
-.line3
-{
+
+.line3 {
     text-align: center;
 }
