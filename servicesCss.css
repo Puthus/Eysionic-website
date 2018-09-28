@@ -1,7 +1,7 @@
 body {
 
     background-color: #f7f7f7;
-    
+
 }
 
 .Our_Services {
@@ -23,9 +23,9 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.08);
     /*margin-right: 15%;*/
-     width: 582px;
+    width: 582px;
     height: 860px;
-    
+
 }
 
 div.box {
@@ -79,13 +79,14 @@ div.box {
     position: absolute;
     width: 90%;
     height: 12%;
-    
+
 }
-.Button_more_1:hover{
-        box-shadow: 0px 15px 40px 5px rgba(6, 29, 71, 0.4);
-        border: 0px solid transparent;
-        transition: 0.5s;
-      }
+
+.Button_more_1:hover {
+    box-shadow: 0px 15px 40px 5px rgba(6, 29, 71, 0.4);
+    border: 0px solid transparent;
+    transition: 0.5s;
+}
 
 
 .More {
@@ -112,11 +113,13 @@ div.box {
     width: 90%;
     height: 12%;
 }
-.Button_more_2:hover{
-        box-shadow: 0px 15px 40px 5px rgba(6, 29, 71, 0.4);
+
+.Button_more_2:hover {
+    box-shadow: 0px 15px 40px 5px rgba(6, 29, 71, 0.4);
     border: 0px solid transparent;
-        transition: 0.5s;
-      }
+    transition: 0.5s;
+}
+
 .Card_frame2 {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -174,10 +177,21 @@ div.box {
 .line3 {
     text-align: center;
 }
-@media (max-width:620px)
-{
-    .Card_frame2{margin-top: 4%;}
-    .Card_frame1{margin-top: 4%;}
-    .line3{margin-top: 4%;}
-    
+.arrow{
+    width: 45%;
+}
+
+@media (max-width:620px) {
+    .Card_frame2 {
+        margin-top: 4%;
+    }
+
+    .Card_frame1 {
+        margin-top: 4%;
+    }
+
+    .line3 {
+        margin-top: 4%;
+    }
+
 }
