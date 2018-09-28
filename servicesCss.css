@@ -6,8 +6,7 @@ body {
 
 .Our_Services {
     font-size: 60px;
-   /* font-family: "Open Sans";*/
-    font-family: open sans;
+    font-family: "Lato";
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-transform: uppercase;
@@ -22,7 +21,7 @@ body {
 .Card_frame {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.08);
     /*margin-right: 15%;*/
      width: 582px;
     height: 860px;
@@ -43,7 +42,7 @@ div.box {
 
 .Web_Development_title {
     font-size: 25px;
-    font-family: "Open Sans";
+    font-family: "Lato";
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
@@ -52,7 +51,7 @@ div.box {
 
 .Lorem_ipsum {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Lato";
     color: rgb(87, 87, 87);
     line-height: 1.2;
     text-align: center;
@@ -80,11 +79,18 @@ div.box {
     position: absolute;
     width: 90%;
     height: 12%;
+    
 }
+.Button_more_1:hover{
+        box-shadow: 0px 15px 40px 5px rgba(6, 29, 71, 0.4);
+        border: 0px solid transparent;
+        transition: 0.5s;
+      }
+
 
 .More {
     font-size: 30px;
-    font-family: "Open Sans";
+    font-family: "Lato";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -106,11 +112,15 @@ div.box {
     width: 90%;
     height: 12%;
 }
-
+.Button_more_2:hover{
+        box-shadow: 0px 15px 40px 5px rgba(6, 29, 71, 0.4);
+    border: 0px solid transparent;
+        transition: 0.5s;
+      }
 .Card_frame2 {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.08);
     /*margin-top: 6%;*/
     width: 582px;
     height: 860px;
@@ -127,7 +137,7 @@ div.box {
 
 .Web_Development_title2 {
     font-size: 25px;
-    font-family: "Open Sans";
+    font-family: "Lato";
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
@@ -137,7 +147,7 @@ div.box {
 
 .Lorem_ipsum2 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Lato";
     color: rgb(87, 87, 87);
     line-height: 1.2;
     text-align: center;
@@ -148,7 +158,7 @@ div.box {
 
 .More2 {
     font-size: 30px;
-    font-family: "Open Sans";
+    font-family: "Lato";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -163,4 +173,11 @@ div.box {
 
 .line3 {
     text-align: center;
+}
+@media (max-width:620px)
+{
+    .Card_frame2{margin-top: 4%;}
+    .Card_frame1{margin-top: 4%;}
+    .line3{margin-top: 4%;}
+    
 }
