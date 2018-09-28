@@ -71,7 +71,7 @@ div.box {
 }
 
 .Button_more_1 {
-    margin-left: 3%;
+    margin-left: 2%;
     border-radius: 10px;
     background-image: -moz-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
     background-image: -webkit-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
@@ -104,7 +104,7 @@ div.box {
 }
 
 .Button_more_2 {
-    margin-left: 3%;
+    margin-left: 2%;
     border-radius: 10px;
     background-image: -moz-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
     background-image: -webkit-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
@@ -194,4 +194,13 @@ div.box {
         margin-top: 4%;
     }
 
+}
+@media (max-width:780PX){
+    .Button_more_2{
+        margin-left:0%;
+    }
+    .Button_more_1
+    {
+        margin-left:0%;
+    }
 }
