@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title></title>
+    <style media="screen">
+    html, body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          font-family: "Lato"
+    }
+
+    body {
+          font-family: "Lato";
+          font-weight: lighter;
+    }
+    .logo {
+      padding-top: 100px;
+      width: 80%;
+    float: left;
+    padding: 15px;
+    padding-top: 8%;
+    }
+    header {
+        /*  width: 100%;
+          height: 120vh;
+          background: url(Eysionic-logo.png) no-repeat 50% 50%;
+          background-size: cover;
+
+      background-image: -moz-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%) ;
+      background-image: -webkit-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%) ;
+      background-image: -ms-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%) ;
+      background-repeat: no-repeat;
+         background-size: auto;*/
+         width: 100%;
+         height: 120vh;
+         background: url(bgbg.png) no-repeat 50% 50%;
+         background-size: cover;
+
+    }
+    nav ul li a {
+      font-weight: bold;
+    }
+
+    .Social_media{
+      position:absolute;
+      padding-top: 20%;
+      width: 20%;
+    float: left;
+    padding: 15px;
+    margin-left: -3%;
+    }
+    .Social_media ul{
+      list-style: none;
+
+    }
+
+    .Social_media ul li{
+    padding: 25px;
+    }
+    .Social_media ul li  a{
+      text-decoration: none;
+    }
+    .Team_located{
+    padding-top: 60px;
+    width: 80%;
+    float: left;
+    padding: 15px;
+    }
+    .Team_located_text{
+      font-size: 45px;
+      text-align: center;
+      color: white;
+      margin-left: 26%;
+      padding-top: 10%;
+    }
+    .web-dev-des{
+      text-transform: uppercase;
+
+    }
+    .first_line{
+padding-bottom: 20px;
+text-align: center;
+margin-left: 26%;
+    }
+    .hr_hidden{
+    display: none;
+    }
+    /*sliman's css*/
+    .Get_the_best_project_quality {
+        font-size: 60px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.917;
+        text-align: center;
+        z-index : 38;
+        width: 100%
+    }
+
+    .Lorem_ipsum {
+        font-size: 25px;
+        font-family: "Open Sans";
+        color: rgb(78, 78, 78);
+        line-height: 1.2;
+        text-align: center;
+        max-width: 654px;
+        z-index: 41;
+    }
+
+    .macbook_air {
+
+        margin-top: 10px;
+        max-width:1013px;
+    }
+
+    .macbook_air > img{
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+
+    .Part2 > * {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Line2 {
+        max-width:87px;
+    }
+
+    .Line2 > img{
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+    .sec2{
+      padding-top: 140px;
+    }
+    .customnav{
+      text-align: center;
+      background: none;
+      color: black;
+      margin-left: 10%;
+    }
+    .navbar{
+      padding-left: 10%;
+    }
+
+.nav-item{
+  margin-left: 25%
+}
+
+    @media(max-width: 990px)
+{
+
+     nav {
+       background-color: #f8f9fa!important;
+     }
+     .navbar-nav{
+     padding-right: 38%;
+
+     }
+     .nav-item{
+      padding: 20px;
+     }
+     .changelogo{
+       content:url("logo.png");
+     }
+
+}
+@media(max-width: 548px)
+{
+  .Social_media{
+    margin-left: -13%;
+  }
+}
+    </style>
+
+  </head>
+  <body>
+    <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light   animated fadeInDown  " >
+  <a class="navbar-brand" href="#"><img src="logo2.png" class="rounded changelogo" alt="..." style=" max-width: 100%;height: auto; "></a>
+  <button class="navbar-toggler jrb" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse customnav" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="Social_media animated fadeInRight" >
+  <ul>
+    <li> <a href="#"> <img src="fb.png" class="rounded" alt="..." ></a> </li>
+    <li> <a href="#"> <img src="insta.png" class="rounded" alt="..."></a></li>
+    <li> <a href="#"> <img src="twitter.png" class="rounded" alt="..."></a> </li>
+  </ul>
+</div>
+<div class="text-center animated fadeInDown  logo">
+  <img src="Eysionic-logo.png" class="rounded" alt="..." style=" max-width: 100%;height: auto; width: 35%; margin-left: 26%;">
+
+  <p class="Team_located_text">Team located in Morocco, Focusing on <br> <span class="web-dev-des">Web Development</span> & <span class="web-dev-des">Web Design</span> </p>
+
+    <!--a href="#sec2">
+    <img src="line 1.png" class="rounded first_line " alt="..." style=" max-width: 100%;height: auto; " ></a-->
+
+
+</div>
+
+
+
+
+</header>
+
+
+
+<section class="sec2">
+<div  class="Section Part2" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" >
+<h1 class="Get_the_best_project_quality">GET THE BEST PROJECT QUALITY</h1>
+<p class="Lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="macbook_air" >
+<img  src="macbook air.png"/>
+</div>
+<div class="Line2">
+<img src="line 2.png"/>
+</div>
+</div>
+</section>
+<script type="text/javascript">
+
+// Scroll function courtesy of Scott Dowding; http://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling
+
+
+
+$(document).ready(function() {
+  if(  $(".jrb").on("click", function()) {
+        $('nav').addClass('bg-light');
+
+  }
+
+  else {
+        $('nav').removeClass('bg-light');
+
+  }))
+});
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
