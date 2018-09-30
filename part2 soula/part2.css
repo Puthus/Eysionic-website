@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 1276px;
+    background: url(bgbg2.svg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.section>* {
+    text-align: center;
+}
+
+.who_we_are {
+    font-size: 60px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+    text-align: center;
+    z-index: 113;
+}
+
+.We_are_a_digital_creative_agency_specialized_in {
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 111;
+    word-break:keep-all;
+}
+
+.name {
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 84;
+}
+
+
+.desc {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.portrait {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    height: 170px;
+    width: 100%;
+}
+
+.circle {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 200px;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 80%;
+}

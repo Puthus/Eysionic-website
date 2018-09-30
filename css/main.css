@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 body {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);    
+    padding: 0px;
+    margin: 0px;
 }
 
-.Get_the_best_project_quality {
+/* .Get_the_best_project_quality {
     font-size: 60px;
     font-family: "Open Sans";
     color: rgb(0, 0, 0);
@@ -14,7 +16,19 @@ body {
     text-align: center;
     z-index : 38;
     width: 100%
-}
+} */
+
+.Get_the_best_project_quality {
+    font-size: 60px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    font-weight: Bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+    text-align: center;
+    z-index: 25;
+  }
+  
 
 .Lorem_ipsum {
     font-size: 25px;
@@ -38,7 +52,7 @@ body {
     width: auto\9; /* ie8 */
 }
 
-.Part2 > * {
+section > * {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -56,5 +70,17 @@ body {
 
 .Section {
     height: 100vh;
-    border: solid black 2px;
+    border: solid red 1px;
+}
+
+.imagefds {
+        background-image: -moz-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%);
+        background-image: -webkit-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%);
+        background-image: -ms-linear-gradient( -51deg, rgb(54,196,134) 0%, rgb(0,191,152) 25%, rgb(0,161,186) 50%, rgb(72,93,166) 75%, rgb(109,50,124) 100%);
+        position: absolute;
+        left: -3px;
+        top: 0px;
+        width: 1923px;
+        height: 1276px;
+        z-index: 5;
 }
