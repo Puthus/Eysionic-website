@@ -1,0 +1,168 @@
+    html, body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          font-family: "Lato"
+    }
+
+    body {
+          font-family: "Lato";
+          font-weight: lighter;
+    }
+    .logo {
+      padding-top: 100px;
+      width: 80%;
+    float: left;
+    padding: 15px;
+    padding-top: 8%;
+    }
+    header {
+         width: 100%;
+         height: 1276px;
+         background: url(bgbg.png) no-repeat 50% 50%;
+         background-size: cover;
+    }
+    nav ul li a {
+      font-weight: bold;
+    }
+
+    .Social_media{
+      position:absolute;
+      padding-top: 20%;
+      width: 20%;
+    float: left;
+    padding: 15px;
+    margin-left: -3%;
+    }
+    .Social_media ul{
+      list-style: none;
+
+    }
+
+    .Social_media ul li{
+    padding: 25px;
+    }
+    .Social_media ul li  a{
+      text-decoration: none;
+    }
+    .Team_located{
+    padding-top: 60px;
+    width: 80%;
+    float: left;
+    padding: 15px;
+    }
+    .Team_located_text{
+      font-size: 45px;
+      text-align: center;
+      color: white;
+      margin-left: 26%;
+      padding-top: 10%;
+    }
+    .web-dev-des{
+      text-transform: uppercase;
+    }
+    .first_line{
+        padding-bottom: 20px;
+        text-align: center;
+        margin-left: 26%;
+        max-width: 100%;
+        height: auto; 
+    }
+    .hr_hidden{
+    display: none;
+    }
+    /*sliman's css*/
+    .Get_the_best_project_quality {
+        font-size: 60px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.917;
+        text-align: center;
+        z-index : 38;
+        width: 100%
+    }
+
+    .Lorem_ipsum {
+        font-size: 25px;
+        font-family: "Open Sans";
+        color: rgb(78, 78, 78);
+        line-height: 1.2;
+        text-align: center;
+        max-width: 654px;
+        z-index: 41;
+    }
+
+    #line1 {
+        
+    }
+
+    .macbook_air {
+
+        margin-top: 10px;
+        max-width:1013px;
+    }
+
+    .macbook_air > img{
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+
+    .Part2 > * {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Line2 {
+        max-width:87px;
+    }
+
+    .Line2 > img{
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+    .sec2{
+      padding-top: 140px;
+    }
+    .customnav{
+      text-align: center;
+      background: none;
+      color: black;
+      margin-left: 10%;
+    }
+    .navbar{
+      padding-left: 10%;
+    }
+
+.nav-item{
+  margin-left: 25%
+}
+
+    @media(max-width: 990px)
+{
+
+     nav {
+       background-color: #f8f9fa!important;
+     }
+     .navbar-nav{
+     padding-right: 38%;
+
+     }
+     .nav-item{
+      padding: 20px;
+     }
+     .changelogo{
+       content:url("logo.png");
+     }
+
+}
+@media(max-width: 548px)
+{
+  .Social_media{
+    margin-left: -13%;
+  }
+}
