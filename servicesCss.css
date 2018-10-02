@@ -24,7 +24,7 @@ body {
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.08);
     /*margin-right: 15%;*/
     width: 582px;
-    height: 860px;
+    height: 900px;
 
 }
 
@@ -46,6 +46,7 @@ div.box {
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
+    font-weight: bold;
     /* position: absolute;*/
 }
 
@@ -55,6 +56,7 @@ div.box {
     color: rgb(87, 87, 87);
     line-height: 1.2;
     text-align: center;
+    padding: 5px 25px 5px 25px;
     /*position: absolute;
   width: 463px;
   height: 140px;*/
@@ -71,14 +73,17 @@ div.box {
 }
 
 .Button_more_1 {
-    margin-left: 2%;
+    margin-left: 18%;
+    margin-top: 2%;
     border-radius: 10px;
     background-image: -moz-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
     background-image: -webkit-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
     background-image: -ms-linear-gradient(45deg, rgb(72, 93, 166) 0%, rgb(0, 161, 186) 50%, rgb(0, 191, 152) 75%, rgb(54, 196, 134) 100%);
     position: absolute;
-    width: 90%;
-    height: 12%;
+    border: 0px solid transparent;
+    width: 65%;
+    height: 10%;
+    
 
 }
 
@@ -104,14 +109,16 @@ div.box {
 }
 
 .Button_more_2 {
-    margin-left: 2%;
+    margin-left: 18%;
+    margin-top: 2%;
     border-radius: 10px;
     background-image: -moz-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
     background-image: -webkit-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
     background-image: -ms-linear-gradient(45deg, rgb(224, 79, 106) 0%, rgb(240, 152, 25) 100%);
     position: absolute;
-    width: 90%;
-    height: 12%;
+    width: 65%;
+    height: 10%;
+    border: 0px solid transparent;
 }
 
 .Button_more_2:hover {
@@ -126,7 +133,7 @@ div.box {
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.08);
     /*margin-top: 6%;*/
     width: 582px;
-    height: 860px;
+    height: 900px;
 }
 
 .icondev_icongraphicdesign2 {
@@ -154,6 +161,7 @@ div.box {
     color: rgb(87, 87, 87);
     line-height: 1.2;
     text-align: center;
+    padding: 5px 25px 5px 25px;
     /*position: absolute;*/
     /* width: 463px;
   height: 140px;*/
@@ -175,6 +183,7 @@ div.box {
 }
 
 .line3 {
+    margin-top: 5%;
     text-align: center;
 }
 .arrow{
@@ -197,10 +206,10 @@ div.box {
 }
 @media (max-width:780PX){
     .Button_more_2{
-        margin-left:0%;
+        margin-left:15%;
     }
     .Button_more_1
     {
-        margin-left:0%;
+        margin-left:15%;
     }
 }
