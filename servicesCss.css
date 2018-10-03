@@ -193,17 +193,12 @@ div.box {
 
 @media (max-width:991px) {
     .Card_frame2 {
-        margin-left: 6%;
-        margin-right: 6%;
         margin-top: 4%;
         padding: 2%;
     }
 
-    .Card_frame {
+    .Card_frame1 {
         margin-top: 4%;
-        margin-left: 6%;
-        margin-right: 6%;
-        padding: 2%;
 
     }
 
@@ -227,7 +222,7 @@ div.box {
         width: 60%;
 
     }
-  
+
 }
 
 
@@ -248,12 +243,12 @@ div.box {
         font-size: 40px;
     }
     .Button_more_2 {
-        margin-top: 20%;
+        margin-top: 25%;
 
     }
 
     .Button_more_1 {
-        margin-top: 20%;
+        margin-top: 25%;
     }
 }
 
@@ -272,7 +267,7 @@ div.box {
     z-index: 39;
 }
     .Lorem_ipsum {
-        font-size: 14px;
+        font-size: 16px;
         font-family: "Lato";
         color: rgb(87, 87, 87);
         line-height: 1.2;
@@ -281,7 +276,7 @@ div.box {
     }
 
     .Lorem_ipsum2 {
-        font-size: 14px;
+        font-size: 16px;
         font-family: "Lato";
         color: rgb(87, 87, 87);
         line-height: 1.2;
