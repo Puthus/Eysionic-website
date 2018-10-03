@@ -83,7 +83,7 @@ div.box {
     border: 0px solid transparent;
     width: 65%;
     height: 10%;
-    
+
 
 }
 
@@ -186,30 +186,63 @@ div.box {
     margin-top: 5%;
     text-align: center;
 }
-.arrow{
+
+.arrow {
     width: 45%;
 }
 
-@media (max-width:620px) {
+@media (max-width:990px) {
     .Card_frame2 {
         margin-top: 4%;
     }
 
     .Card_frame1 {
         margin-top: 4%;
+
     }
 
     .line3 {
         margin-top: 4%;
     }
 
-}
-@media (max-width:780PX){
-    .Button_more_2{
-        margin-left:15%;
+    .icondev_icongraphicdesign {
+
+        /*position: absolute;*/
+        padding: 5%;
+        width: 65%;
+        height: 70%;
     }
-    .Button_more_1
-    {
-        margin-left:15%;
+
+    .icondev_icongraphicdesign2 {
+
+
+        padding: 5%;
+
+        width: 70%;
+
+    }
+
+}
+
+
+
+@media (max-width:780PX) {
+    .Button_more_2 {
+        
+        margin-left: 15%;
+    }
+
+    .Button_more_1 {
+        margin-left: 15%;
+    }
+}
+@media (max-width:610PX) {
+    .Button_more_2 {
+        margin-top: 25%;
+        
+    }
+
+    .Button_more_1 {
+        margin-top: 25%;
     }
 }
