@@ -1,3 +1,6 @@
+    
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+    
     html,
     body {
       margin: 0;
@@ -196,3 +199,173 @@
     .logotypo {
       max-width: 672px;
     }
+
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 1276px;
+    background: url(../assets/bgbg2.svg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.section>* {
+    text-align: center;
+}
+
+.who_we_are {
+    font-size: 60px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+    text-align: center;
+    z-index: 113;
+}
+
+.We_are_a_digital_creative_agency_specialized_in {
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 111;
+    word-break:keep-all;
+}
+
+.name {
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 84;
+}
+
+
+.desc {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.portrait {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    height: 170px;
+    width: 100%;
+    z-index: 100;
+}
+
+.circle {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 200px;
+    width: 100%;
+    z-index: 99;
+}
+
+
+.Cont {
+    max-width: 80%;
+}
+
+/* SAMAMIL */
+
+.contact{
+  text-align: center;
+}
+
+  .content_contact {
+    background-image: linear-gradient( -45deg, rgb(0,191,152) 0%, rgb(0,161,186) 50%, #3272b0 100%);
+    background-image: -moz-linear-gradient( -45deg, rgb(0,191,152) 0%, rgb(0,161,186) 50%, #3272b0 100%);
+    background-image: -webkit-linear-gradient( -45deg, rgb(0,191,152) 0%, rgb(0,161,186) 50%, #3272b0 100%);
+    background-image: -ms-linear-gradient( -45deg, rgb(0,191,152) 0%, rgb(0,161,186) 50%, #3272b0 100%);
+  }
+
+  .content_contact h1{
+    font-size: 60px;
+    color: rgb(254, 254, 254);
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.917;
+    
+   }
+   
+   .simple_contact span{
+      font-size: 40px;
+      line-height: 1.2;
+      text-align: center;
+   }
+  .simple_contact span[data-num="1"]{
+    color: rgb(254, 254, 254);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .simple_contact h3{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .form_contact{
+    margin: 20px 120px 20px 120px;
+  }
+  .btn_contact{
+    border-radius: 10px;
+    background-image: -moz-linear-gradient( 135deg, rgb(224,79,106) 0%, rgb(240,152,25) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgb(224,79,106) 0%, rgb(240,152,25) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgb(224,79,106) 0%, rgb(240,152,25) 100%);
+    box-shadow: 0px 17px 59px 0px rgba(6, 29, 71, 0.09);
+    padding:  15px 0px 15px 0px;
+    color: white;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0px;
+  }
+  .btn_contact:hover{
+    box-shadow: 0px 25px 60px 5px rgba(6, 29, 71, 0.2);
+    transition: 1s;
+  }
+  .form_contact input::placeholder textarea::placeholder{
+    color: #434343;
+  }
+
+  .form_contact input{
+    padding: 15px 15px 15px 15px;
+  }
+  @media screen and (max-width: 992px) {
+    .form_contact{
+      margin: 20px 20px 20px 20px;
+    }
+
+  }
+  @media screen and (max-width: 800px)
+    {
+      .background_contact{
+        height: 1300px;
+        position: absolute;
+        /*margin-left: -10px;*/
+        margin-top: -98px;
+        padding-right: 20px;
+        z-index: -1;
+      }
+    }
+  .copyright{
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+  }
