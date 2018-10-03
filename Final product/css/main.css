@@ -161,10 +161,6 @@
       color: black;
     }
 
-    .navbar {
-      padding-left: 15%;
-    }
-
     @media(min-width: 992px) {
       .navbar-nav {
         position: relative;
