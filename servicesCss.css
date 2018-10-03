@@ -191,7 +191,7 @@ div.box {
     width: 45%;
 }
 
-@media (max-width:990px) {
+@media (max-width:991px) {
     .Card_frame2 {
         margin-top: 4%;
     }
@@ -209,7 +209,7 @@ div.box {
 
         /*position: absolute;*/
         padding: 5%;
-        width: 65%;
+        width: 60%;
         height: 70%;
     }
 
@@ -218,7 +218,7 @@ div.box {
 
         padding: 5%;
 
-        width: 70%;
+        width: 60%;
 
     }
 
