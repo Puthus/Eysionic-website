@@ -194,6 +194,7 @@ div.box {
 @media (max-width:991px) {
     .Card_frame2 {
         margin-top: 4%;
+        padding: 2%;
     }
 
     .Card_frame1 {
@@ -228,7 +229,7 @@ div.box {
 
 @media (max-width:780PX) {
     .Button_more_2 {
-        
+
         margin-left: 15%;
     }
 
@@ -236,13 +237,51 @@ div.box {
         margin-left: 15%;
     }
 }
+
 @media (max-width:610PX) {
+    .Our_Services {
+        font-size: 40px;
+    }
     .Button_more_2 {
         margin-top: 25%;
-        
+
     }
 
     .Button_more_1 {
         margin-top: 25%;
+    }
+}
+
+@media (max-width:300PX) {
+    .Our_Services {
+    font-size: 22px;
+    font-family: "Lato";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+    text-align: center;
+    /* position: absolute;*/
+    left: 746.516px;
+    top: 3118.99px;
+    z-index: 39;
+}
+    .Lorem_ipsum {
+        font-size: 16px;
+        font-family: "Lato";
+        color: rgb(87, 87, 87);
+        line-height: 1.2;
+        text-align: center;
+        padding: 5px 25px 5px 25px;
+    }
+
+    .Lorem_ipsum2 {
+        font-size: 16px;
+        font-family: "Lato";
+        color: rgb(87, 87, 87);
+        line-height: 1.2;
+        text-align: center;
+        padding: 5px 25px 5px 25px;
+        
     }
 }
