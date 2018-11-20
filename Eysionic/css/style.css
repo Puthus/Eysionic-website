@@ -55,6 +55,7 @@ nav a:hover{
 
 
 nav {
+    color: #fff;
   display: block;
   position: fixed;
   width: 500px;
@@ -374,6 +375,7 @@ nav a:hover {
 /**/
 /* Section 3*/
 .services {
+
     padding-top: 120px;
 }
 .services h1{
