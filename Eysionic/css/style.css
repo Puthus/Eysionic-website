@@ -1,9 +1,9 @@
 /*NAVBAR*/
 .navbar-bg{
-    background: url(../Assets/background.png) no-repeat 50% 50%;
+    background: url(../Assets/head_background.png) no-repeat;
     width: 100%;
     min-height:1220px;
-    height: auto;
+    height: 50%;
     padding-bottom: 40px;
     background-size: cover;
     -webkit-background-size: cover;
