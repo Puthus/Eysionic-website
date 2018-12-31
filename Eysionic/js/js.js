@@ -1,5 +1,5 @@
 toggle = document.querySelectorAll(".toggle")[0];
-nav = document.querySelectorAll("nav")[0];
+nav = document.querySelectorAll(".sun_menu")[0];
 toggle_open_text = 'Menu';
 toggle_close_text = 'Close';
 
@@ -15,4 +15,4 @@ toggle.addEventListener('click', function() {
 
 setTimeout(function(){
 	nav.classList.toggle('open');	
-}, 800);
+}, 300);

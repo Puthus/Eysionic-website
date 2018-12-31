@@ -1,92 +1,321 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Bootstrap's css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        
-    <title>Eysionic</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Bootstrap's css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+  <title>Eysionic</title>
 </head>
 
 <body>
  
-        <div class="navbar-bg">
-          <div class="container pt-5"><a class="float-left" href="#"><img src="Assets/Eysi..png" alt="" class="img-fluid"></a></div>
-            
-            <nav class="top-right open">
-                <a href="#" title="" class="disc l1">
-                  <div>Portoflio</div>
-                </a>
-                <a href="#" title="" class="disc l2">
-                  <div>Team</div>
-                </a>
-                <a href="#" title="" class="disc l3">
-                  <div>Services</div>
-                </a>
-                <a href="#" title="" class="disc l4">
-                  <div>Home</div>
-                </a>
-               
-                <a title="" class="disc l5 toggle">
-                  Menu
-                </a>
-              </nav>
-              <div class="eysionic_team_content container">
-                  <span class="Eysionic_Team">Eysionic Team</span>
-                  <p class="Eysionic_caption">We design and build beautiful digital <br>
-                    products that make a difference</p>
-                 <a href="" class="btn Contact_us_button ">Contact Us</a>   
-                 <img src="Assets/us.png" alt="" class="team_icon">
-              </div>  
-              
-            
-            <section class="services_we_provide">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-6 col-sm-12 col-xs-12">
-                    <img class="imgtst" src="Assets/pothos.png" alt="">
-                  </div>
-                  
-                      <div class=" col-md-6 col-sm-12 col-xs-12">
-                        <p class="services-caption">
-                            A few reasons why <br><span class="services-caption-eysionic">Eysionic</span> might be the right fit
-                        </p>
-                        <br> <br>
-                        <p class="services-caption2">
-                          we provide services like UX/UI design, <br> Web Development Services, 
-                          Mobile & <br> Desktop Application, Digital marketing <br> Services, and more.
-                        </p>
-                        </div>
-                </div>
-              </div>
+  
+  <section class="navbar-bg ">
+  
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand ml-5" href="#"><img src="Assets/Eysi..png" alt=""></a>
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-5">
+          <li class="nav-item px-5 active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item px-4">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  
 
+<!--=====================Sun Menu================================================-->
+<nav class=" sun_menu top-right open ">
+  <a href="#" title="" class="disc l1">
+    <div>Our projects</div>
+  </a>
+  <a href="#" title="" class="disc l2">
+    <div>Team</div>
+  </a>
+  <a href="#" title="" class="disc l3">
+    <div>Services</div>
+  </a>
+  <a href="#" title="" class="disc l4">
+    <div>Home</div>
+  </a>
+
+  <a title="" class="disc l5 toggle">
+    Menu
+  </a>
+</nav>
+<div class="eysionic_team_content container">
+    <span class="Eysionic_Team">Eysionic Team</span>
+    <p class="Eysionic_caption">We design and build beautiful digital <br>
+      products that make a difference</p>
+   <a href="" class="btn Contact_us_button ">Contact Us</a>
+   <img src="Assets/us.png" alt="" class="team_icon">
+</div>
+
+<!--======================================================================-->
+    <div class="eysionic_team_content container">
+      <span class="Eysionic_Team">Eysionic Team</span>
+      <p class="Eysionic_caption">We design and build beautiful digital <br>
+        products that make a difference</p>
+      <a href="" class="btn Contact_us_button ">Contact Us</a>
+      <img src="Assets/us.png" alt="" class="team_icon">
+    </div>
+  </section>
+
+  <section class="services_we_provide ">
+    <div class="container mr-5">
+      <div class="row ">
+        <div class="col-md-6 col-sm-12 col-xs-12 Pros_div">
+          <img class="Pros_img" src="Assets/pothos.png" alt="">
+        </div>
+
+        <div class=" col-md-6 col-sm-6 col-xs-6">
+          <p class="services-caption">
+            A few reasons why <br><span class="services-caption-eysionic">Eysionic</span> might be the right fit
+          </p>
+          <br>
+          <p class="services-caption2">
+            we provide services like UX/UI design, <br> Web Development Services,
+            Mobile & <br> Desktop Application, Digital marketing <br> Services, and more.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <section class="Services">
+    <h1 class="our_services text-center">Our Services</h1>
+    <div class="container cards_deck">
+      <div class="row  justify-content-center">
+        <div class="col pt_cards">
+          <div class="card services_card " style="width: 18rem; height: 18rem;">
+            <img class="card-img img_overlay" src="Assets/apps_dev_background_v2.png" alt="Card image">
+
+            <div class="card-img-overlay">
+              <img class="card-img-top card-icon" src="Assets/app dev ison.png" style="width: 3em; float: left; ">
+              <h5 class="card-title services_card_title fix">Apps developement</h5>
+              <p class="card-text services_card_text">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
             </div>
-            </section>
-            <section class="services">
-              <div class="container">
-                <h1 class="text-center">Our Services</h1>
-                <div class="row text-center cards-row">
-                  <div class="col"><a href=""><img src="Assets/ux ui card.png" alt=""></a> </div>
-                  <div class="col"><a href=""><img src="Assets/web dev card.png" alt=""></a></div>
-                  <div class="col"><a href=""><img src="Assets/mobil desktop card.png" alt=""></a></div>
-                  <div class="col"><a href=""><img src="Assets/digital mark card.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="col pt_cards">
+          <div class="card services_card " style="width: 18rem; height: 18rem;">
+            <img class="card-img img_overlay2" src="Assets/design_background_v2.png" alt="Card image">
+
+            <div class="card-img-overlay">
+              <img class="card-img-top card-icon" src="Assets/design icon.png" style="width: 3em; float: left; ">
+              <h5 class="card-title services_card_title fix">Apps developement</h5>
+              <p class="card-text services_card_text">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pt_cards">
+          <div class="card services_card " style="width: 18rem; height: 18rem;">
+            <img class="card-img img_overlay3" src="Assets/digital_background_v3.png" alt="Card image">
+
+            <div class="card-img-overlay">
+              <img class="card-img-top card-icon" src="Assets/digital marketing icon.png" style="width: 3em; float: left; ">
+              <h5 class="card-title services_card_title fix">Apps developement</h5>
+              <p class="card-text services_card_text">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Our TEAM-->
+  <div class="our text-center">
+    <h1>Our Team</h1>
+  </div>
+  <div class="blog-slider">
+    <div class="blog-slider__wrp swiper-wrapper">
+
+
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+
+          <img src="Assets/Screenshot_5.png" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <!--span class="blog-slider__code">26 December 2019</span-->
+          <div class="blog-slider__title">Ismail Souirdi</div>
+          <div class="blog-slider__text">Co-founder & Product Designer</div>
+          <a href="#" class="blog-slider__button">More <span style="padding-left:20px; font-size:18px;">+</span></a>
+        </div>
+      </div>
+
+
+      <div class="blog-slider__item swiper-slide">
+
+        <div class="blog-slider__img">
+
+          <img src="Assets/Screenshot_6.png" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">26 December 2019</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate
+            repellendus magni illo ea animi? </div>
+          <a href="#" class="blog-slider__button">Designer</a>
+        </div>
+      </div>
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="Assets/Screenshot_9.png" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">26 December 2019</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate
+            repellendus magni illo ea animi?</div>
+          <a href="#" class="blog-slider__button">Designer</a>
+        </div>
+      </div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="Assets/Screenshot_8.png" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">26 December 2019</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate
+            repellendus magni illo ea animi?</div>
+          <a href="#" class="blog-slider__button">Designer</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="blog-slider__pagination"></div>
+  </div>
+
+  <!-- END Our TEAM-->
+  <!-- Footer -->
+  <section id="footer">
+
+    <div class="container footer_content">
+      
+         
+      
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>COMPANY</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="">HOME</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Legal</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="">Privacy & Terms</a></li>
+            <li><a href="">Support</a></li>
+
+
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 contact_us_rectangle  ">
+          <span class="rectangle_title ">Contact Us</span>
+
+          <form class="contact_form">
+              <div class="form-group">
+                  
+                  <input type="text" class="form-control inputs_border" id="" placeholder="Name">
                 </div>
+              <div class="form-group">
+               
+                <input type="email" class="form-control inputs_border" id="" placeholder="Email">
               </div>
+             
+             
+              <div class="form-group">
+             
+                <textarea class="form-control inputs_border" name="message" id="" rows="4" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn send_btn">
+                <img src="Assets/send_icon_small.png" alt="" class="send_icon">
+               <span class="send_txt">Send</span> </button>
+            </form>
+          </div>
+      </div>
 
-            </section>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 socials">
+          <h5>Socials</h5>
+          <ul class="list-unstyled list-inline social">
+            <li class="list-inline-item"><a href="/"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="/"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+      </div>
 
-            <script type="text/javascript" src="js/js.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+
+          <p class="h6 right-reserved">&copy All right Reversed.<a class="text-green ml-2" href="https://www.stefanobarberini-club24hl.com"
+              target="_blank">Eysionic Team</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end footer-->
+
+  <script>
+    var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/js.js"></script>
+
 </body>
 
 </html>
