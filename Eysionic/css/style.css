@@ -1,6 +1,5 @@
 ﻿@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /*NAVBAR*/
-<<<<<<< HEAD
 .navbar-bg {
   background: url(../Assets/head_background.png) no-repeat;
   background-size: 100%;
@@ -13,21 +12,6 @@
  
   z-index: 99;
   
-=======
-.navbar-bg{
-    background: url(../Assets/head_background.png) no-repeat;
-    width: 100%;
-    min-height:1220px;
-    height: 50%;
-    padding-bottom: 40px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-html,body{
-  overflow-x:hidden;
->>>>>>> d5814f8b8dc15e759f257c080deeab569900cf1b
 }
 .services_we_provide{
   margin-top: -83%;
