@@ -771,6 +771,7 @@ textarea[name=message] {
    }
   .sun_menu{
     display: block !important;
+    
   }
   .team_icon{
     display: none;
@@ -1086,4 +1087,8 @@ color: rgba(255, 215, 0, 0.5);
 -webkit-transform: scale(0.9);
         transform: scale(0.9);
 transition-duration: 0s;
+}
+nav .sun_menu{
+  overflow: hidden;
+  
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .cont{
+            display: grid;
+            grid-template-rows: auto 10px;
+            grid-template-areas: "nothing" "pinko";
+            content: "";
+            width: 100vw;
+            height: 1000px;
+            overflow: hidden;
+            -webkit-transform: skewY(-8deg);
+            -webkit-transform-origin: 0;
+            transform-origin: 0;
+        }
+
+        .test{
+            height: 100%;
+            width: 150%;
+            left: -50px;
+            content: "";
+            grid-area: nothing;
+            position: absolute;
+            /* background: -webkit-linear-gradient( -44deg, rgb(41,149,234) 0%, rgb(77,0,148) 50%, rgb(19,0,42) 100%);  1fb8fb 2f005c
+*/
+            background: radial-gradient(circle at top left, #1dbfff, #4d0094, #13002a);
+  
+            /* overflow: visible; */
+
+        }
+        .bg{
+            z-index: 0;
+            content: "";
+            height: 150%;
+            grid-area: nothing;
+            -webkit-transform: skewY(8deg);
+            background: url(img.png) repeat;
+            background-size: 17px 17px;
+        }
+        .line{
+            z-index: 5;
+            content: "";
+            height: 100%;
+            background-color: rgb(252, 98, 98);
+            grid-area: pinko;
+            border: solid 10px rgb(252, 98, 98);
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="test"></div>
+        <div class="line"></div>
+        <div class="bg"></div>
+    </div>
+</body>
+</html>
