@@ -2,19 +2,20 @@
 /*NAVBAR*/
 .navbar-bg {
   background: url(../Assets/head_background.png) no-repeat;
-  background-size: 100%;
   
+  height: auto;
   width: 100%;
+  min-height: 1300px;
+background-size:100%; 
+
  
- min-height: 1600px;
- 
-  
  
   z-index: 99;
   
 }
 .services_we_provide{
-  margin-top: -83%;
+ margin-top: -30rem;
+ 
 }
 /*.navbar-bg:after{
 
@@ -109,6 +110,7 @@ nav a:hover{
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: left;
+  
 }
 
 .Contact_us_button {
@@ -139,20 +141,17 @@ nav a:hover{
 
 .services_we_provide{
   overflow: hidden;
-  padding-top:300px;
   
 }
 
 
 
 .services-caption {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Poppins";
   color: rgb(89, 92, 97);
   line-height: 1.2;
-  -moz-transform: matrix(1.26499693105348, 0, 0, 1.26499693105348, 0, 0);
-  -webkit-transform: matrix(1.26499693105348, 0, 0, 1.26499693105348, 0, 0);
-  -ms-transform: matrix(1.26499693105348, 0, 0, 1.26499693105348, 0, 0);
+  z-index: 999;
   
 
 }
@@ -167,14 +166,11 @@ nav a:hover{
 }
 
 .services-caption2 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Poppins";
   color: rgb(145, 153, 166);
   line-height: 1.2;
-  -moz-transform: matrix(1.26499693105348, 0, 0, 1.26499693105348, 0, 0);
-  -webkit-transform: matrix(1.26499693105348, 0, 0, 1.26499693105348, 0, 0);
-  -ms-transform: matrix(1.26499693105348, 0, 0, 1.26499693105348, 0, 0);
-
+ 
 }
 
 /**/
@@ -735,9 +731,7 @@ textarea[name=message] {
   .team_icon{
     display: none;
   }
-  .services_we_provide{
-    margin-top: -280%;
-  }
+ 
   .Pros_div{
     text-align: center;
   }
