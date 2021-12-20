@@ -1,0 +1,376 @@
+:root {
+    --purple-color: #4d0094;
+    --pinkish-color: #fc6262;
+    --grey-color:#9199a6;
+    --darkgrey-color: #595c61;
+    --font-primary: 'Poppins';
+    --spacing-desktop: 150px;
+    --spacing-mobile: 500px;
+}
+
+
+
+/* Websites Packs Home Page*/
+.websites_packs{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.websites_packs .card{
+    width: 30rem;
+    height:12rem;
+    box-shadow: rgb(115 128 157 / 10%) 0px 0px 30px;
+    border: 0;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+    float: none;
+        
+}
+@media screen and (max-width: 576px) {
+    .websites_packs .card {
+        width:290px
+    }
+}
+.card-link {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    color: #595c61;
+    font-weight: 700;
+}
+.card-link:hover{
+    color: var(--pinkish-color);
+}
+
+
+.the-arrow {
+    width: 64px;
+    transition: all 0.2s;
+  }
+  .the-arrow.-left {
+    position: absolute;
+    top: 60%;
+    left: 0;
+  }
+  .the-arrow.-left > .shaft {
+    width: 0;
+    background-color: #999;
+  }
+  .the-arrow.-left > .shaft:before, .the-arrow.-left > .shaft:after {
+    width: 0;
+    background-color: #999;
+  }
+  .the-arrow.-left > .shaft:before {
+    transform: rotate(0);
+  }
+  .the-arrow.-left > .shaft:after {
+    transform: rotate(0);
+  }
+  .the-arrow.-right {
+    top: 3px;
+  }
+  .the-arrow.-right > .shaft {
+    width: 64px;
+    transition-delay: 0.2s;
+  }
+  .the-arrow.-right > .shaft:before, .the-arrow.-right > .shaft:after {
+    width: 8px;
+    transition-delay: 0.3s;
+    transition: all 0.5s;
+  }
+  .the-arrow.-right > .shaft:before {
+    transform: rotate(40deg);
+  }
+  .the-arrow.-right > .shaft:after {
+    transform: rotate(-40deg);
+  }
+  .the-arrow > .shaft {
+    background-color: #999;
+    display: block;
+    height: 1px;
+    position: relative;
+    transition: all 0.2s;
+    transition-delay: 0;
+    will-change: transform;
+  }
+  .the-arrow > .shaft:before, .the-arrow > .shaft:after {
+    background-color: #999;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.2s;
+    transition-delay: 0;
+  }
+  .the-arrow > .shaft:before {
+    transform-origin: top right;
+  }
+  .the-arrow > .shaft:after {
+    transform-origin: bottom right;
+  }
+  
+  .animated-arrow {
+    display: inline-block;
+    color: #fc6262;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.2s;
+    top: 4.3rem;
+  }
+  .animated-arrow:hover {
+    color: #fc6262;
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft {
+    width: 64px;
+    transition-delay: 0.1s;
+    background-color: #999;
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft:before, .animated-arrow:hover > .the-arrow.-left > .shaft:after {
+    width: 8px;
+    transition-delay: 0.1s;
+    background-color: #999;
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft:before {
+    transform: rotate(40deg);
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft:after {
+    transform: rotate(-40deg);
+  }
+  .animated-arrow:hover > .main {
+    transform: translateX(80px);
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft {
+    width: 0;
+    transform: translateX(200%);
+    transition-delay: 0;
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft:before, .animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+    width: 0;
+    transition-delay: 0;
+    transition: all 0.1s;
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft:before {
+    transform: rotate(0);
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+    transform: rotate(0);
+  }
+  .animated-arrow > .main {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+  }
+  .animated-arrow > .main > .text {
+    margin: 0 16px 0 0;
+    line-height: 1;
+  }
+  .animated-arrow > .main > .the-arrow {
+    position: relative;
+  }
+/* End Websites Packs Home Page*/
+
+
+/* Packs Cards*/
+/* End Packs Cards*/
+.pricing1 {
+    font-family: var(--font-primary);
+    color: var(--grey-color);
+    font-weight: 300;
+}
+
+.pricing1 .font-weight-bold {
+    font-weight: 700;
+}
+
+.pricing1 .bg-light {
+    background: #F3EFFF, 30%;
+}
+
+.pricing1 .subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #797876;
+}
+
+.pricing1 .font-14 {
+    font-size: 14px;
+}
+
+.pricing1 h5 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--darkgrey-color);
+}
+
+.pricing1 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.pricing1 .on-hover {
+    -webkit-transition: 0.9s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.pricing1 .on-hover:hover {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -webkit-font-smoothing: antialiased;
+}
+
+.pricing1 .btn-success-gradiant {
+    background: var(--purple-color);
+}
+
+.pricing1 .btn-success-gradiant:hover {
+    background: linear-gradient(84.33deg, var(--purple-color) 1.44%, #8d48ce 98.77%);
+    border: 1px;
+}
+
+.pricing1 .btn-danger-gradiant {
+    background: var(--pinkish-color);
+}
+
+.pricing1 .btn-danger-gradiant:hover {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, var(--pinkish-color) 0%, #ff7c7c 100%);
+    border: 1px;
+}
+
+.pricing1 .btn-md {
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.pricing1 .price-badge {
+    top: -13px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.pricing1 .badge-inverse {
+    background-color: #3e4555;
+    color: #FFFFFF;
+}
+
+.pricing1 .display-5 {
+    font-size: 3rem;
+    color: var(--main-bg-color);
+}
+
+.pricing1 .green-color {
+    font-size: 3rem;
+    color: var(--pinkish-color);
+}
+
+.pricing1 .pricing sup {
+    font-size: 18px;
+    top: -20px;
+}
+
+.pricing1 .card{
+  overflow: visible; 
+}
+/*******************************************/
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+/*
+ Styling
+*/
+body {
+  font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+  color: #333;
+  font-weight: 300;
+}
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #06c;
+}
+
+.tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+
+/*
+ Demo purposes only
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+.tabset {
+  max-width: 65em;
+  text-align: center;
+}
